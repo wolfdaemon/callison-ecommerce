@@ -5,9 +5,11 @@ import { HomePage } from './HomePage';
 import { NavBar } from './NavBar';
 import './NavBar.css';
 import { ItemsForSale } from './ItemsForSale.css';
+import MyRouter from './MyRouter';
 
 
 
   ReactDOM.render(
-  <HomePage />,
+  // {<HomePage />,}
+     <MyRouter />,
   document.getElementById('root'));

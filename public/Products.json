@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "PearBook",
+        "description": "PearBook is a basic, all around, all purpose notebook.",
+        "price": 1000,
+        "OS": "Pear OS",
+        "Ram": "8",
+        "CPU": "P1",
+        "Picture": "https://static.wikia.nocookie.net/icarly/images/7/74/Carly%27_PB.png/revision/latest/scale-to-width-down/829?cb=20121224211122"
+       },
+
+       {
+        "id": 2,
+        "name": "PearBook Pro",
+        "description": "For when the PearBook isn't enough we give you PearBook Pro! Faster, and more efficient for our users",
+        "price": 1500,
+        "OS": "Pear OS",
+        "Ram": "16",
+        "CPU": "P3",
+        "Picture": "https://static.wikia.nocookie.net/icarly/images/7/74/Carly%27_PB.png/revision/latest/scale-to-width-down/829?cb=20121224211122"
+       },
+       
+       {
+        "id": 3,
+        "name": "Cal's Linux Beast",
+        "description": "",
+        "price": 2000,
+        "OS": "EndeavourOS",
+        "Ram": "16",
+        "CPU": "C3",
+        "Picture": "https://news-cdn.softpedia.com/images/news2/entroware-launches-ubuntu-powered-aether-laptop-with-intel-kaby-lake-cpus-513291-8.jpg"
+       },
+
+       {
+        "id": 4,
+        "name": "Allison's ToddlerBook",
+        "description": "For our users who don't understand computers and just use it for fun.",
+        "price": 500,
+        "OS": "RedStone OS",
+        "Ram": "4",
+        "CPU": "Pentium 5",
+        "Picture": "https://r.search.yahoo.com/_ylt=AwrEzOD.d5JhhFkAX0aJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzQyOTI3YmFmNWM1ZWMyYmFhMWQyY2Q1NzA2MWY4NWZiBGdwb3MDMjMEaXQDYmluZw--/RV=2/RE=1637017727/RO=11/RU=http%3a%2f%2fzedomax.com%2fblog%2f2010%2f12%2f10%2fthe-best-kidstoddler-laptop%2f/RK=2/RS=rP_HC4H1vpTkRIrcLuPQ0Ys6jz8-"
+       },
+
+       {
+        "id": 5,
+        "name": "OrangeBook",
+        "description": "Our top of the line computer. The biggest, baddest one we have yet! If you're into gaming, coding, art, music, etc then this is the computer for you. The most memory on the market and super easy to use!",
+        "price": 2500,
+        "OS": "Juice OS",
+        "Ram": "32",
+        "CPU": "o1",
+        "Picture": ""
+       }
+]

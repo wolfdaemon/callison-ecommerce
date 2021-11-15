@@ -8,7 +8,7 @@ export class HomePage extends React.Component {
     render() {
         return (
             <div><center>
-                {/* Note: ask why do we need curly braces over comments here? (React JSX) */}
+                
                 <h1>Callison's E-Commerce Site</h1>;
                 <p>Shopping from home so you don't have to change out of your sweats!</p>
                <NavBar />
