@@ -1,11 +1,11 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
-import { ItemsForSale } from "./ItemsForSale.";
+import { ItemsForSale } from "./ItemsForSale";
 
 //...
 
@@ -15,22 +15,16 @@ export default function MyRouter() {
       <div>
             <Link to="/"><button>Home</button></Link>
         
-            <Link to="/dashboard"><button>Shop</button></Link>
+            <Link to="/Shop"><button>Shop</button></Link>
         
             <Link to="/cart"><button>Cart</button></Link>
         <hr />
 
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/Shop">
-            <ItemsForSale />
-          </Route>
-          <Route path="/Cart">
-            <Cart />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/Shop" element={<ItemsForSale />} />
+          <Route path="/Cart" element={<Cart />} />
+        </Routes>
       </div>
     </Router>
   );
