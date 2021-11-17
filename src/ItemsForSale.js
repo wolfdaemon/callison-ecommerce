@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 
 
 export function ItemsForSale() {
-    const [items, setItems] = useState();
+    const [items, setItems] = useState([]);
     const Item = (props) => {
         return <div>
         <h1>{ props.obj.name }</h1>
@@ -21,14 +21,28 @@ export function ItemsForSale() {
         <img src= { props.obj.Picture } />
         <h3> $ { props.obj.price }</h3>
         </div>;
-            } 
-    const displayItems = items.map(function(it){
-        return <Item obj={ it } key={ it.id }/>;
-    })
+            }
+
+    const itemsMap = () => {
+      return items.map(
+        function(it){
+          return <Item obj={ it } key={ it.id }/>;
+        });
+    };
+
+    const emptyList = () => {
+      return  <div>No items to show</div>;
+    };
+
+    const displayItems = (items.length > 0) ? itemsMap : emptyList;
+
+
+
+
     useEffect(() => {
         fetch("Products.json")
         .then(res => res.json())
         .then(data => setItems(data));
-    } )
-    return <>{ displayItems }</>;
+    }, [] )
+    return <><h1>Items Available:</h1>{ displayItems() }</>;
 }
