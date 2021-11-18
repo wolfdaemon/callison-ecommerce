@@ -21,7 +21,7 @@ export function ItemsForSale() {
         <img src= { props.obj.Picture } className="item-img" />
         <h3> $ { props.obj.price }</h3>
         </div>;
-            }
+    }
 
     const itemsMap = () => {
       return items.map(
