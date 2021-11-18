@@ -10,3 +10,10 @@ font-style: normal;
 font-variant: normal;
 text-transform: uppercase;
 }
+
+/* For the product, i.e. "Items for sale" images */
+.item-img {
+    width: 70%;
+    max-width: 60em;
+    height: auto;
+}

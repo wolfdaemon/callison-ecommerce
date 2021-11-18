@@ -18,7 +18,7 @@ export function ItemsForSale() {
                 CPU: { props.obj.CPU }
             </li>
             </ul>
-        <img src= { props.obj.Picture } />
+        <img src= { props.obj.Picture } className="item-img" />
         <h3> $ { props.obj.price }</h3>
         </div>;
             }
