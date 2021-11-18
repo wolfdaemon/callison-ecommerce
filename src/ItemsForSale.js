@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from "react";
-
+import './ItemsForSale.css';
 
 export function ItemsForSale() {
     const [items, setItems] = useState([]);

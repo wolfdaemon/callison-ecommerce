@@ -4,7 +4,7 @@ import './index.css';
 import { HomePage } from './HomePage';
 import { NavBar } from './NavBar';
 import './NavBar.css';
-import { ItemsForSale } from './ItemsForSale.css';
+import { ItemsForSale } from './ItemsForSale.js';
 import MyRouter from './MyRouter';
 
 
