@@ -2,6 +2,8 @@ import React from 'react';
 import { NavBar } from './NavBar.js';
 import './Home.css';
 
+// imports from react-bootstrap
+
 
 
 export class Home extends React.Component {
