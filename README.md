@@ -1,7 +1,12 @@
-# Dependencies
+# Dev Dependencies
 Use the Node Package Manager to install "react-router-dom"
 
 ### `npm install react-router-dom`
+
+Use `npm` to install Bootstrap
+
+### `npm install --save bootstrap`
+### https://create-react-app.dev/docs/adding-bootstrap/#adding-bootstrap
 
 ## Getting Started with Create React App
 

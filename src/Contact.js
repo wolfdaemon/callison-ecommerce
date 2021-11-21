@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavBar } from './NavBar.js';
-import './Home.css';
+import './Contact.css';
 
 
 
-export class Home extends React.Component {
+export class Contact extends React.Component {
     render() {
         return (
             <div>
@@ -12,7 +12,7 @@ export class Home extends React.Component {
                     <h1>Callison's E-Commerce Site</h1>
                     <p>Shopping from home so you don't have to change out of your sweats!</p>
                     <br></br>
-                    <img src="https://img.wallpapersafari.com/desktop/1680/1050/70/10/VQWxKr.jpg" width="500" height="242"/>
+                    <img class="item-img" src="https://img.wallpapersafari.com/desktop/1680/1050/70/10/VQWxKr.jpg" width="500" height="242"/>
                 </center>
             </div>
         );

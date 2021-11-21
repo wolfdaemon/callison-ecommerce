@@ -1,10 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.css'; // importing Bootstrap CSS
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Home } from './Home';
-import { NavBar } from './NavBar';
 import './NavBar.css';
-import { ItemsForSale } from './ItemsForSale.js';
 import NavRouter from './NavRouter';
 
 
